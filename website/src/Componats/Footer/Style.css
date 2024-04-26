@@ -1,0 +1,54 @@
+
+
+ul,li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex !important;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+  
+}
+
+.infomation{
+    width: 200px;
+}
+.infomation :hover{
+    color: red;
+    font-weight: 600;
+    transform: translateX(5px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.myaccount{
+    width: 200px;
+}
+.myaccount :hover{
+    color: red;
+    font-weight: 600;
+  
+    transform: translateX(5px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.social{
+    width: 200px;
+}
+
+.social :hover{
+    color: red;
+    font-weight: 600;
+  
+    transform: translateX(5px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
